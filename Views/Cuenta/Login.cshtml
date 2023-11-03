@@ -1,31 +1,44 @@
 @model LoginModel
 
 @{
-    ViewBag.Title="Iniciar";
+    ViewBag.Title = "Iniciar";
 }
 
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/login.css">
+<!------ Include the above in your HEAD tag ---------->
+
 <form method="post">
-<div class="container register">
-    <div class="row">
-        <div class="col-md-3 register-left"></div>
-        <div class="col-md-9 register-right">
-            <div class="tab-content">
-                <div class="col-md-6">
+    <div class="container login-box">
+        <div class="row justify-content-center"> <!-- Centrar el contenido horizontalmente -->
+            <div class="col-md-6 login-header">Login</div>
+        </div>
+        <div class="row justify-content-center"> <!-- Centrar el contenido horizontalmente -->
+            <div class="col-md-6">
+                <div class="login-body">
                     <div class="form-group">
                         <span asp-validation-for="Usuario" class="text-danger"></span>
-                        <input asp-for="Usuario" class="form-control" placeholder="Usuario" type="text"/>
+                        <input asp-for="Usuario" class="form-control" placeholder="Usuario" type="text" />
                     </div>
-                    <br/>
                     <div class="form-group">
                         <span asp-validation-for="Clave" class="text-danger"></span>
-                        <input asp-for="Clave" class="form-control" placeholder="Password" type="Password"/>
+                        <input asp-for="Clave" class="form-control" placeholder="Password" type="password" />
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <input type="submit" value="Log in" class="btn btn-primary" asp-action="Login" asp-controller="Cuenta"/>
+                    <div class="text-center"> <!-- Centrar el botón -->
+                        <input type="submit" value="Log in" class="btn btn-success" asp-action="Login" asp-controller="Cuenta" />
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
 </form>
+
+<style>
+    .login-box {
+        max-width: 400px; /* Ajusta el ancho máximo a tu preferencia */
+        margin: 0 auto;  /* Centrar el contenedor horizontalmente */
+        padding: 20px;    /* Agregar espacio alrededor del formulario */
+    }
+</style>
