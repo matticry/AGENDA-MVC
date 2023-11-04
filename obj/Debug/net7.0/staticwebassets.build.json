@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hd44V4KYcWPdv15+edaLtZjrhWLseAO/LInDexozBWQ=",
+  "Hash": "haIKF3NhZqUyCNUqUW4my6N4bEdB0RDYHfMtbsdXl08=",
   "Source": "MVC",
   "BasePath": "_content/MVC",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\impor\\OneDrive\\Escritorio\\ProyectoAgenda\\ProyectoAgenda\\wwwroot\\js\\index.global.js",
+      "SourceId": "MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\impor\\OneDrive\\Escritorio\\ProyectoAgenda\\ProyectoAgenda\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "RelativePath": "js/index.global.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\index.global.js"
     },
     {
       "Identity": "C:\\Users\\impor\\OneDrive\\Escritorio\\ProyectoAgenda\\ProyectoAgenda\\wwwroot\\js\\site.js",

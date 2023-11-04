@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\impor\\OneDrive\\Escritorio\\ProyectoAgenda\\ProyectoAgenda\\wwwroot\\js\\index.global.js",
+      "PackagePath": "staticwebassets\\js\\index.global.js"
+    },
+    {
       "Id": "C:\\Users\\impor\\OneDrive\\Escritorio\\ProyectoAgenda\\ProyectoAgenda\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
